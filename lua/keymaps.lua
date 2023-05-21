@@ -21,6 +21,10 @@ vim.api.nvim_set_keymap("n", "<C-Right>", ":vertical resize +2<CR>", opts)
 
 
 
+vim.api.nvim_set_keymap('n', '<leader>ps', ':PackerSync<CR>', { noremap = true, silent = true })
+
+
+
 -- Set up your keybinding
 vim.api.nvim_set_keymap('n', '<leader>n', ':lua create_file_in_current_directory()<CR>', { noremap = true, silent = true })
 
