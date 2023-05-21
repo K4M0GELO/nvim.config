@@ -1,8 +1,5 @@
 # My Nvim Config(Work in Progress)
 ---
-
-# Dictionary
-
 ## Work in Progress
 
 ### Noun
